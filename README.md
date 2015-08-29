@@ -32,26 +32,22 @@ return q.promise;
 
 ```
 
+Here's the way we use it for chaing promisese call : 
+
 ```
-// Add with q
    $scope.step =0; 
-   $scope.startTime = Date.now(); 
-   
+   $scope.startTime = Date.now();    
    $scope.addOne(1)
    .then(
-   // 
       function (v){ return $scope.addOne (v) })
    .then(
-   //
       function (v){ return $scope.addOne (v) })
    .then(
-   //
       function (v){ return $scope.addOne (v) })
    .then(
-   //
       function (v){ return $scope.addOne (v) })
    .then(
-   // ** The Chain End : ** 
+   /** The Chain End : **/  
       function(v){
         $scope.results2 = v; //res; 
         $scope.ElapsedTime2 = 
