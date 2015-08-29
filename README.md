@@ -34,7 +34,6 @@ return q.promise;
 
 Here's the way we use it for chaing promisese call : 
 
-```
    $scope.step =0; 
    $scope.startTime = Date.now();    
    $scope.addOne(1)
