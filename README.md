@@ -1,4 +1,4 @@
-Welcome to my promises snippets:
+** Welcome to my promises snippets: **
 
 Here you can find operating code for promises chaining in 2 ways in AngularJS :
 
@@ -38,6 +38,7 @@ Here's the way we use it for chaing promisese call :
 
    $scope.step =0; 
    $scope.startTime = Date.now();    
+   
    $scope.addOne(1)
    .then(
       function (v){ return $scope.addOne (v) })
