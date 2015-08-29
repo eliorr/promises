@@ -9,6 +9,7 @@ Here you can find operating code for promises chaining in 2 ways in AngularJS :
 The main code is at www/js/app.js
 
 ///////// Usage of the AngularJS $q service 
+{
 $scope.addq = function (x, y) {
 var   q = $q.defer();
 
@@ -27,12 +28,12 @@ setTimeout (function (){
        }, 100 ); 
 
 };  
-
+}
 
 // promises chain of calls so that every element in the chan is 
 called with the previous async process is finished  :
 
-
+{
 // Add with q
    $scope.step =0; 
    $scope.startTime = Date.now(); 
@@ -56,7 +57,7 @@ called with the previous async process is finished  :
       }
     );
 	
-
+}
  
 
 
