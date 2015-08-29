@@ -39,14 +39,19 @@ return q.promise;
    
    $scope.addOne(1)
    .then(
+   // 
       function (v){ return $scope.addOne (v) })
    .then(
+   //
       function (v){ return $scope.addOne (v) })
    .then(
+   //
       function (v){ return $scope.addOne (v) })
    .then(
+   //
       function (v){ return $scope.addOne (v) })
    .then(
+   // ** The Chain End : ** 
       function(v){
         $scope.results2 = v; //res; 
         $scope.ElapsedTime2 = 
