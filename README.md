@@ -8,6 +8,8 @@ Here you can find operating code for promises chaining in 2 ways in AngularJS :
 
 The main code is at www/js/app.js
 
+```
+
 ///////// Usage of the AngularJS $q service 
  function () { 
 
@@ -23,14 +25,14 @@ else
        q.reject ('Negative result not allowed!  ');
 return q.promise;
 };
-
-
-
+```
 
 // promises chain of calls so that every element in the chan is 
 // called with the previous async process is finished  :
 
- function tester () {  
+```
+
+```
 // Add with q
    $scope.step =0; 
    $scope.startTime = Date.now(); 
@@ -54,10 +56,10 @@ return q.promise;
         $scope.ErrorOc = err; 
       }
     );
-	
-} 
+```	
+ 
 
-}
+
 
 
 
