@@ -43,7 +43,7 @@ function add(x, y, callback) {
              );  
 } 
 
-///////// Add with promise  
+///////// Add with delay - User with promise ! 
 function addp(x, y) {
   // return a promise 
     return $timeout ( function () {  
@@ -51,7 +51,7 @@ function addp(x, y) {
         }, 100 
       );  
 } 
-///////// Add with q service 
+///////// Add with delay +  with AngularJS q service - 
 $scope.addq = function (x, y) {
 var   q = $q.defer();
 
