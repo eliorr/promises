@@ -16,12 +16,14 @@ The main code is at www/js/app.js
 $scope.addOne = function (num) {
 	var   q = $q.defer();
 
-	 if (angular.isNumber(num)) 
+if (angular.isNumber(num)) 
+// Set to return later : 
      setTimeout (function () { 
             $scope.step++; 
             q.resolve (num+1); 
     }, 1000 );
 else 
+// Return imeddiatly : 
        q.reject ('Negative result not allowed!  ');
 return q.promise;
 };
