@@ -29,8 +29,8 @@ return q.promise;
 };
 ```
 
-// promises chain of calls so that every element in the chan is 
-// called with the previous async process is finished  :
+promises chain of calls so that every element in the chan is 
+called with the previous async process is finished  :
 
 ```
 
