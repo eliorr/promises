@@ -1,4 +1,4 @@
-** Welcome to my promises snippets: **
+<h1> Promises Chaining and AngularJS $q service snippets: **
 
 Here you can find operating code for promises chaining in 2 ways in AngularJS :
 
